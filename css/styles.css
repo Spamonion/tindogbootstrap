@@ -1,0 +1,181 @@
+/* Elements */
+body {
+  font-family: "Montserrat";
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  padding: 0 7%;
+}
+/* Class Styling */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 3.5rem 0;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.2rem
+}
+
+.download-button {
+  margin: 5% 5% 5% 0;
+}
+
+.fa-apple {
+  margin-right: 8px;
+}
+
+.fa-google-play {
+  margin-right: 8px;
+
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotateZ(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* feature section */
+#features {
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.feature-header {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-body {
+  color: #8f8f8f;
+  width: 70%;
+  padding: auto;
+  margin: auto;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 16px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.testimonial-image {
+  width: 10%;
+  margin: 20px 20px 5px 20px;
+  border-radius: 100%;
+}
+
+.carousel-item {
+padding: 3% 15%;
+}
+
+.press-logo {
+ width: 10%;
+ margin: 20px 20px 3%;
+}
+
+/* Pricing Section */
+#pricing {
+text-align: center;
+padding: 5rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1440px) {
+
+#title {
+  text-align: center;
+}
+
+.title-image {
+  position: static;
+  transform: rotate(0);
+}
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  padding: 5%;
+}
+
+.cta-header {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cta-button {
+  margin: 3% 3% 0 0;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  padding: 7%;
+}
+
+.social-icon {
+  margin: 0 16px 5%;
+  color: rgb(50, 50, 50);
+}
+
+.copyright {
+  color: rgb(153, 153, 153);
+}
